@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dokdo&display=swap')
+
+.dokdo-regular {
+  font-family: "Dokdo", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+section {
+	display: flex;
+}
+
+.king {
+	justify-content: center;
+	align-items: center;
+}
+
+.lion {
+	font-family: "Dokdo", system-ui;
+	
+	justify-content: center;
+	align-items: up;
+}
+
+.hakuna__text {
+	align-self: flex-end;
+	border-top: 2px solid orange;
+	border-left: 2px solid orange;
+	padding: 20px;
+}
+
+.hakuna__poem p {
+	border-right: 2px solid orange;
+	border-bottom: 2px solid orange;
+	padding: 20px;
+	text-align: center;
+}
+
+.hakuna__poem,
+.hakuna__text {
+	margin: 20px;
+}
+
+.greeting {
+	margin-bottom: -100px;
+}

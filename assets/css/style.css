@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* --- */
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: "Montserrat", sans-serif;
+}
+
+header {
+   display: block;
+}
+
+/* Header */
+
+.header {
+   border-bottom: 1px solid hsl(0, 0%, 0%);
+   padding-bottom: 20px;
+   padding-top: 20px;
+}
+
+.header__container {
+   flex-direction: column;
+   align-items: center;
+   display: flex;
+   gap: 20px;
+}
+
+.header__logo {
+   background-image: url(../img/qr.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: 150px;
+}
+
+.header__logo img {
+   border-radius: 50%;
+   width: 200px;
+}
+
+.header__logo :hover {
+   opacity: 0;
+}
+
+/* Main */
+
+.lessons__title {
+   padding: 20px;
+}
+
+/* Footer */
+.footer {
+   background-color: #000000;
+   padding: 30px 0 30px 0;
+   color: #ffffff;
+   background-image: url(../img/3d-cat.gif);
+   background-size: 120px;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.footer__container {
+   flex-direction: column;
+   display: flex;
+   padding: 20px;
+}
+
+.footer__year {
+   align-self: center;
+   font-weight: bold;
+   font-size: 20px;
+}
+
+.tov {
+   font-size: 5px;
+}
+
+/*OLD*/
+
+.old {
+   position: absolute;
+   top: 10px;
+   left: 10px;
+}
+
+.old a,
+.old a:active,
+.old a:hover {
+   color: #000000;
+   text-transform: uppercase;
+   text-decoration: none;
+}

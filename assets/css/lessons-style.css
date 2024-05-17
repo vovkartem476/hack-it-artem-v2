@@ -1,0 +1,387 @@
+.list-lesson {
+    padding: 50px;
+    gap: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden
+}
+
+.list-lesson__item {
+    flex-grow: 1;
+    flex-basis: 200;
+    border: 1px rgb(255, 255, 255) solid;
+    transition: all 0.5s ease-in-out;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    flex-basis: 200;
+    padding: 80px;
+    border-radius: 5%;
+}
+
+.list-lesson__item:hover {
+    transform: scale(1.2);
+    color: black;
+    background-color: white;
+    border-color: black;
+}
+
+/*---*/
+
+.item__1 {
+    flex-grow: 1;
+    flex-basis: 200;
+    border: 1px rgb(255, 255, 255) solid;
+    transition: all 0.5s ease-in-out;
+    background-color: rgb(94, 94, 94);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    flex-basis: 200;
+    padding: 80px;
+    border-radius: 5%;
+}
+
+.item__1:hover {
+    transform: scale(1.5);
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+    border-color: black;
+    background-image: url(../img/lessons/1-10/item__1.png);
+    background-size: cover;
+}
+
+.item__2 {
+    flex-grow: 1;
+    flex-basis: 200;
+    border: 1px rgb(255, 255, 255) solid;
+    transition: all 0.5s ease-in-out;
+    background-color: rgb(150, 150, 150);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    flex-basis: 200;
+    padding: 80px;
+    border-radius: 5%;
+}
+
+.item__2:hover {
+    transform: scale(1.5);
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+    border-color: black;
+    background-image: url(../img/lessons/1-10/item__2.png);
+    background-size: cover;
+}
+
+.item__3 {
+    flex-grow: 1;
+    flex-basis: 200;
+    border: 1px rgb(255, 255, 255) solid;
+    transition: all 0.5s ease-in-out;
+    background-color: rgb(48, 48, 48);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    flex-basis: 200;
+    padding: 80px;
+    border-radius: 5%;
+}
+
+.item__3:hover {
+    transform: scale(1.5);
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+    border-color: black;
+    background-image: url(../img/lessons/1-10/item__3.png);
+    background-size: cover;
+}
+
+.item__5-7 {
+    flex-grow: 1;
+    flex-basis: 200;
+    border: 1px rgb(255, 255, 255) solid;
+    transition: all 0.5s ease-in-out;
+    background-color: rgb(119, 129, 54);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    flex-basis: 200;
+    padding: 80px;
+    border-radius: 5%;
+}
+
+.item__5-7:hover {
+    transform: scale(1.5);
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+    border-color: black;
+    background-image: url(../img/lessons/1-10/item__5-7.png);
+    background-size: cover;
+}
+
+.item__8 {
+    flex-grow: 1;
+    flex-basis: 200;
+    border: 1px rgb(255, 255, 255) solid;
+    transition: all 0.5s ease-in-out;
+    background-color: rgb(51, 140, 152);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    flex-basis: 200;
+    padding: 80px;
+    border-radius: 5%;
+}
+
+.item__8:hover {
+    transform: scale(1.5);
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+    border-color: black;
+    background-image: url(../img/lessons/1-10/item__8.png);
+    background-size: cover;
+}
+
+.item__9 {
+    flex-grow: 1;
+    flex-basis: 200;
+    border: 1px rgb(255, 255, 255) solid;
+    transition: all 0.5s ease-in-out;
+    background-color: rgb(175, 69, 162);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    flex-basis: 200;
+    padding: 80px;
+    border-radius: 5%;
+}
+
+.item__9:hover {
+    transform: scale(1.5);
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+    border-color: black;
+    background-image: url(../img/lessons/1-10/item__9.png);
+    background-size: cover;
+}
+
+.item__10 {
+    flex-grow: 1;
+    flex-basis: 200;
+    border: 1px rgb(255, 255, 255) solid;
+    transition: all 0.5s ease-in-out;
+    background-color: rgb(83, 125, 177);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    flex-basis: 200;
+    padding: 80px;
+    border-radius: 5%;
+}
+
+.item__10:hover {
+    transform: scale(1.5);
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+    border-color: black;
+    background-image: url(../img/lessons/1-10/item__10.png);
+    background-size: cover;
+}
+
+.item__11 {
+    flex-grow: 1;
+    flex-basis: 200;
+    border: 1px rgb(255, 255, 255) solid;
+    transition: all 0.5s ease-in-out;
+    background-color: rgb(27, 60, 100);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    flex-basis: 200;
+    padding: 80px;
+    border-radius: 5%;
+}
+
+.item__11:hover {
+    transform: scale(1.5);
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+    border-color: black;
+    background-image: url(../img/lessons/11-20/item__11.png);
+    background-size: cover;
+}
+
+.item__12 {
+    flex-grow: 1;
+    flex-basis: 200;
+    border: 1px rgb(255, 255, 255) solid;
+    transition: all 0.5s ease-in-out;
+    background-color: rgb(203, 198, 91);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    flex-basis: 200;
+    padding: 80px;
+    border-radius: 5%;
+}
+
+.item__12:hover {
+    transform: scale(1.5);
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+    border-color: black;
+    background-image: url(../img/lessons/11-20/item__12.png);
+    background-size: cover;
+}
+.item__13 {
+    flex-grow: 1;
+    flex-basis: 200;
+    border: 1px rgb(255, 255, 255) solid;
+    transition: all 0.5s ease-in-out;
+    background-color: rgb(108, 89, 19);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    flex-basis: 200;
+    padding: 80px;
+    border-radius: 5%;
+}
+
+.item__13:hover {
+    transform: scale(1.5);
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+    border-color: black;
+    background-image: url(../img/lessons/11-20/item__13.png);
+    background-size: cover;
+}
+.item__14 {
+    flex-grow: 1;
+    flex-basis: 200;
+    border: 1px rgb(255, 255, 255) solid;
+    transition: all 0.5s ease-in-out;
+    background-color: rgb(193, 60, 60);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    flex-basis: 200;
+    padding: 80px;
+    border-radius: 5%;
+}
+
+.item__14:hover {
+    transform: scale(1.5);
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+    border-color: black;
+    background-image: url(../img/lessons/11-20/item__14.png);
+    background-size: cover;
+}
+.item__15-16 {
+    flex-grow: 1;
+    flex-basis: 200;
+    border: 1px rgb(255, 255, 255) solid;
+    transition: all 0.5s ease-in-out;
+    background-color: rgb(71, 52, 155);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    flex-basis: 200;
+    padding: 80px;
+    border-radius: 5%;
+}
+
+.item__15-16:hover {
+    transform: scale(1.5);
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+    border-color: black;
+    background-image: url(../img/lessons/11-20/item__15-16.png);
+    background-size: cover;
+}
+.item__17 {
+    flex-grow: 1;
+    flex-basis: 200;
+    border: 1px rgb(255, 255, 255) solid;
+    transition: all 0.5s ease-in-out;
+    background-color: rgb(68, 188, 80);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    flex-basis: 200;
+    padding: 80px;
+    border-radius: 5%;
+}
+
+.item__17:hover {
+    transform: scale(1.5);
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+    border-color: black;
+    background-image: url(../img/lessons/11-20/item__17.png);
+    background-size: cover;
+}
+.item__18 {
+    flex-grow: 1;
+    flex-basis: 200;
+    border: 1px rgb(255, 255, 255) solid;
+    transition: all 0.5s ease-in-out;
+    background-color: rgb(89, 5, 5);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    flex-basis: 200;
+    padding: 80px;
+    border-radius: 5%;
+}
+
+.item__18:hover {
+    transform: scale(1.5);
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+    border-color: black;
+    background-image: url(../img/lessons/11-20/item__18.png);
+    background-size: cover;
+}
+.item__19-20 {
+    flex-grow: 1;
+    flex-basis: 200;
+    border: 1px rgb(255, 255, 255) solid;
+    transition: all 0.5s ease-in-out;
+    background-color: rgb(71, 195, 181);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    flex-basis: 200;
+    padding: 80px;
+    min-width: 200px;
+    max-width: auto;
+    border-radius: 5%;
+}
+
+.item__19-20:hover {
+    transform: scale(1.5);
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+    border-color: black;
+    background-image: url(../img/lessons/11-20/item__19-20.png);
+    background-size: cover;
+}
