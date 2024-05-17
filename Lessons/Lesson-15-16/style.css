@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Marck Script", cursive;
+    text-shadow: 2px 2px 2px white;
+    background-color: #9bd9ff;
+    color: #ff8694;
+    font-size: 30px;
+    margin: 24px;
+}
+
+.text {
+    border-top: 2px solid #fff;
+}
+
+.container {
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+        "item1 item1 item1"
+        "item2 item3 item4"
+        "item5 item5 item7"
+        "item6 item6 item7";
+    gap: 15px;
+}
+
+.container div {
+    border: 4px solid #fdf1e5;
+}
+
+.content {
+    background-color: rgba(207, 164, 191, 0.4);
+    width: 100%;
+    height: 100%;
+    color: #fcffaf;
+    padding: 25px;
+    opacity: 0;
+    transition: opacity 0.5s linear, transform 0.5s linear;
+}
+
+
+.item1 {
+    grid-area: item1;
+    padding: 15px;
+}
+
+
+.item2 {
+    grid-area: item2;
+    width: 425px;
+    height: 600px;
+    background-image: url('./images/london.jpg');
+}
+
+.item2 p {
+    border-radius: 0 0 60% 0;
+    transform-origin: center top;
+    transform: rotateX(-90deg);
+}
+
+.item2:hover p {
+    opacity: 1;
+    transform: rotateX(0deg);
+}
+
+
+.item3 {
+    grid-area: item3;
+    width: 425px;
+    height: 600px;
+    background-image: url('./images/paris.jpg');
+}
+
+.item3 p {
+    transform: rotateY(180deg);
+}
+
+.item3:hover p {
+    opacity: 1;
+    transform: rotateY(0deg);
+}
+
+
+.item4 {
+    grid-area: item4;
+    padding: 15px;
+}
+
+
+.item5 {
+    grid-area: item5;
+    width: 850px;
+    height: 300px;
+    background-image: url('./images/Turtsiya.jpg');
+}
+
+.item5 p {
+    transform: scale(0.1);
+}
+
+.item5:hover p {
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+.item6 {
+    grid-area: item6;
+    padding: 15px;
+}
+
+
+.item7 {
+    grid-area: item7;
+    width: 425px;
+    height: 600px;
+    background-image: url('./images/venice.jpg');
+}
+
+.item7 p {
+    transform: skewX(-70deg);
+}
+
+.item7:hover p {
+    opacity: 1;
+    transform: skewX(0deg);
+}

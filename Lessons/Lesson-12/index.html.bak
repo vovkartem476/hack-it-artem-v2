@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 12</title>
+	<style> 
+	
+	* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	}
+	
+	h1 {
+	font-family: "Permanent Marker", cursive;
+	height: 400px;
+	color: red;
+	text-shadow: 5px 5px 0px black;
+	font-size: 150px;
+	}
+
+	body {
+	background: rgb(255,201,0);
+	background: linear-gradient(180deg, rgba(255,201,0,0.35057773109243695) 35%, rgba(241,255,0,0.4458158263305322) 100%);
+	}
+
+	.box {
+	border: 1px solid red;
+	background-image: 
+	url(./images/front_sky.png),  
+	url(./images/middle_sky.png),
+	url(./images/back_sky.png),
+	
+	url(./images/under_back_sky.png),
+	
+	url(./images/front_grass.png),
+	url(./images/middle_grass.png),
+	url(./images/back_grass.png);
+	
+	height: 910px;
+	background-repeat: no-repeat;
+	background-position: 
+	0px 0px, 0px 20px, 0px 60px, 
+	
+	0px 70px, 
+	
+	0px 760px, 0px 660px, 0px 660px;
+	
+	background-size: 100%;
+	
+	text-align: center;
+	padding-top: 90px;
+	}
+	
+	</style>
+</head>
+<body>
+    <div class="box">
+	<h1>ANGRY BIRDS</h1>
+	<img src="./images/Trio-angry-birds.png" alt="AAAAAAAAAA">
+	</div>
+</body>
+</html>
