@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 17</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Головна -->
+        <section id="main" class="main"> 
+            <nav class="nav"> 
+                <ul class="nav__list"> 
+                    <li class="nav__item"> 
+                        <a href="#main" class="nav__link">ГОЛОВНА</a> 
+                    </li> 
+                    <li class="nav__item"> 
+                        <a href="#video" class="nav__link">ВІДЕО</a> 
+                    </li> 
+                    <li class="nav__item"> 
+                        <a href="#audio" class="nav__link">МУЗИКА</a> 
+                    </li> 
+                </ul> 
+            </nav> 
+            <h1 class="title">Добрий Динозавр</h1> 
+            <div class="info">Анімаційне пригода «Добрий динозавр» від Disney / Pixar розповідає історію неймовірної дружби  
+                юного бронтозавра і маленького хлопчика. Цим, на перший погляд, не схожим героям належить разом зробити 
+                небезпечну подорож і зрозуміти, що вони не так вже й відрізняються один від одного. 
+            </div> 
+            <img class="logo" src="./images/disney_logo.png" alt="disney_logo"> 
+            <div class="spot__info"> 
+                <img src="./images/spot.png" alt="spot"> 
+                <p>Спот - суміш трирічної дитини і бойової собаки: пересувається на четвереньках, володіє відмінним нюхом і 
+                    пробує на зуб все, що рухається.</p> 
+            </div> 
+            <div class="arlo__info"> 
+                <img src="./images/arlo.png" alt="arlo"> 
+                <p>Апатозавр Арло народився маленьким і боягузливим. Страх заважав йому в усьому. Одного разу Арло впав в річку, 
+                    і його віднесло далеко від будинку. Тепер йому належить кинути виклик своїм страхам, щоб повернутися до сім'ї до настання зими.</p> 
+            </div> 
+        </section>
+        <!-- Відео -->
+        <section id="video" class="video">
+            <ul class="video__list">
+                <li class="video__item">
+                    <video class="video__element" src="./video/video1.mp4" controls width="450" height="300"
+                        preload="none" poster="./images/poster1.jpg"></video>
+                </li>
+                <li class="video__item">
+                    <iframe width="450" height="300" src="https://www.youtube.com/embed/KucMRCG1WJI?si=ATNyMG2vLl4lho3J"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </li>
+            </ul>
+            <h2 class="video__title">Моменти з фільму</h2>
+        </section>
+        <!-- Аудіо -->
+        <section id="audio" class="audio">
+            <h2 class="audio__title">Музика з фільму</h2>
+            <ul class="audio__list">
+                <li class="audio__item">
+                    <p class="audio__name">Hello Arlo</p>
+                    <audio src="./music/ost1.mp3" class="audio__element" controls></audio>
+                </li>
+                <li class="audio__item">
+                    <p class="audio__name">Lost in The World</p>
+                    <audio src="./music/ost2.mp3" class="audio__element" controls></audio>
+                </li>
+                <li class="audio__item">
+                    <p class="audio__name">You're Me and More</p>
+                    <audio src="./music/ost3.mp3" class="audio__element" controls></audio>
+                </li>
+            </ul>
+        </section>
+    </div>
+</body>
+
+</html>

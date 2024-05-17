@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-image: url(./images/marvel_back.jpg);
+    font-family: "Philosopher", sans-serif;
+    background-attachment: fixed;
+}
+li{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.header {
+    background-color: #111;
+    padding: 40px 24px;
+    color: #fff;
+}
+.nav__list {
+    display: flex;
+    gap: 50px;
+}
+.nav__item {
+    position: relative;
+}
+.nav__link {
+    transition: text-shadow 0.2s linear;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 28px;
+    color: inherit;
+}
+.nav__link:hover {
+    text-shadow: 2px 2px 10px #fff, -2px -2px 10px #fff;
+}
+.nav__image {
+    transition: transform 0.3s linear, opasity 0.2s linear;
+    transform: translateX(-50%) scale(0.2);
+    position: absolute;
+    opacity: 0;
+    left: 50%;
+}
+.nav__item:hover .nav__image{
+    transform: translate(-50%, 70px) scale(1.4) rotate(1080deg);
+    opacity: 1;
+}
+
+.head {
+    justify-content: center;
+    align-items: center;
+    padding: 40px 24px;
+    display: flex;
+    gap: 60px;
+}
+.head__image {
+    width: 500px;
+}
+.title {
+    text-transform: uppercase;
+    font-size: 80px;
+    color: white;
+}
+
+
+.footer {
+    background-color: #a5181c;
+    padding: 60px 24px;
+    text-align: center;
+}
+
+.spider {
+    position: fixed;
+    right: 0;
+    bottom: 100px;
+    transition: filter 0.2s linear;
+}
+.spider:hover {
+    filter: drop-shadow(3px 3px 10px #fff);
+}
+
+
+.about__image {
+    position: sticky;
+    top: 0;
+  }
+.about__image-first {
+    background-color: #3A151C;
+  }
+.about__item p{
+    max-width: 1000px;
+    text-align: justify;
+    margin: 0 auto;
+    font-size: 28px;
+    background-color: rgba(0,0,0, 0.6);
+    border-radius: 6px;
+    padding: 20px 50px;
+  }
+.about__capitan {
+    color: #81b1fe;
+  }
+.about__iron {
+    color: #ffe9a1;
+  }
+.about__hulk {
+    color: #97ff7f;
+  }
+.about__tor {
+    color: #fe676e;
+  }
+.about__natali {
+    color: #fdbe7a;
+  }
+  
+
+  
+.img-capitan {
+    left: 0;
+  }
+.img-iron {
+    left: 250px;
+  }
+.img-hulk {
+    left: 500px;
+  }
+.img-tor {
+    left: 750px;
+  }
+.img-natali {
+    left: 1000px;
+  }
