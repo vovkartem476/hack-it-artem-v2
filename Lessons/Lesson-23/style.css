@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Philosopher&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Philosopher", sans-serif;
+  background-color: rgb(0, 0, 0);
+  overflow: hidden;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.map {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./images/map_background.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+}
+
+.left-cover {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgb(0, 0, 0);
+  left: -490px;
+  width: 50%;
+  text-align: right;
+  animation: open_left 3s ease-in-out;
+}
+
+.right-cover {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgb(0, 0, 0);
+  right: -490px;
+  width: 50%;
+  animation: open_right 3s ease-in-out;
+}
+
+@keyframes open_left {
+  0%,
+  50% {
+    left: 0;
+  }
+  50%,
+  100% {
+    left: -490px;
+  }
+}
+
+@keyframes open_right {
+  0%,
+  50% {
+    right: 0;
+  }
+  50%,
+  100% {
+    right: -490px;
+  }
+}
+
+.pointers_item {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50% 50% 50% 0;
+  transform: rotate(-45deg);
+  background-color: rgba(137, 118, 80, 0.5);
+  border: 2px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pointers p {
+  transform: rotate(45deg);
+  text-align: center;
+  color: #ffffcd;
+}
+
+.link1 {
+  left: 630px;
+  top: 220px;
+}
+
+.link2 {
+  left: 530px;
+  top: 620px;
+}
+
+.link3 {
+  left: 1020px;
+  top: 390px;
+}
+
+.about li {
+  position: fixed;
+  width: 550px;
+  height: 550px;
+  border-radius: 50%;
+  background-color: rgba(250, 253, 102, 0.8);
+  color: #49402d;
+  font-size: 20px;
+  box-shadow: 4px 4px 10px 2px #000;
+  left: 50%;
+  bottom: 50%;
+  bottom: -150px;
+  transform: translate(-50%, 50%) scale(0.2);
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.about a {
+  padding: 10px 15px;
+  border-radius: 12px;
+  background-color: #000;
+  color: #ffffcd;
+  font-size: 18px;
+  height: fit-content;
+  align-self: flex-start;
+}
+
+.about p {
+  padding: 10px 5px 10px 70px;
+  text-align: center;
+  flex-grow: 1;
+}
+
+#link1_about:target,
+#link2_about:target,
+#link3_about:target {
+  opacity: 1;
+  bottom: 50%;
+  transform: translate(-50%, 50%) scale(1);
+}
+
+#link1_about,
+#link2_about,
+#link3_about {
+  background-image: url(./images/590.jpg);
+  background-size: cover;
+  transition: all 0.3s ease-in-out;
+}
+
+#link1_about p,
+#link2_about p,
+#link3_about p {
+  opacity: 0;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+}
+
+#link1_about:hover p,
+#link2_about:hover p,
+#link3_about:hover p {
+  opacity: 1;
+  color: white;
+  text-shadow: 2px 2px 1px #000;
+}

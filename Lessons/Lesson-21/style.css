@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url(./images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.face {
+  width: 130px;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  transform: rotate(225deg);
+}
+.eyes div {
+  width: 4px;
+  height: 4px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 25px;
+  background-color: black;
+  border-radius: 50%;
+}
+.eyes {
+  display: flex;
+}
+.logo_H2O {
+  position: relative;
+  width: 130px;
+  height: 130px;
+  border: 3px solid black;
+}
+.logo_H2O p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  font-size: 62px;
+}
+.dribble {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  background-color: #3b9be5;
+  animation: dribble_animate 8s ease-out;
+}
+.mouth {
+  width: 15px;
+  height: 15px;
+  border-bottom: 2px solid black;
+  border-radius: 50%;
+}
+
+@keyframes dribble_animate{ 0%{
+    bottom: 0px;  border-radius: 0 0 0 0;
+    transform:translate(0, 0)  scale(1) rotate(0deg); }
+    5%{
+    bottom: -200px;
+    border-radius: 0 0 0 0;
+    transform:translate(0, 0)  scale(1) rotate(0deg); }
+    10%{
+    border-radius: 50% 0 0 0;
+    transform:translate(0, 0) scale(1) rotate(45deg);
+    bottom: -200px; }
+    15%{
+    border-radius: 50% 50% 0 0;
+    transform:translate(0, 0) scale(1) rotate(90deg);  
+    bottom: -200px;
+    } 
+    20%, 22%{
+    border-radius: 50% 50% 50% 0;
+    transform:translate(0, 0) scale(1) rotate(135deg);
+    bottom: -200px;
+    background-color: #3DFFFD;
+    } 
+    24%, 33%{  
+    border-radius: 50% 50% 50% 0;
+    transform:translate(0, 0) scale(2, 0.5) rotate(135deg);
+    bottom: -200px;
+    } 
+    26%, 30%{  
+    border-radius: 50% 50% 50% 0;
+    transform: translate(-20px, 0) scale(2, 0.5) rotate(135deg);
+    bottom: -200px;
+    } 
+    28%, 32%{  
+    border-radius: 50% 50% 50% 0;
+    transform: translate(20px, 0) scale(2, 0.5) rotate(135deg);
+    bottom: -200px; }
+    36%{
+    border-radius: 50% 50% 50% 0;
+    transform: translate(0, 0) scale(1) rotate(135deg);
+    bottom: 200px;
+    } 50%{
+    border-radius: 50% 50% 50% 0;
+    transform: translate(0, 0) scale(1) rotate(315deg);
+    bottom: 200px; }
+    60%{  
+    border-radius: 50% 50% 50% 0;
+    transform: translate(0, 0) scale(1, 2) rotate(315deg);  
+    bottom: 200px;
+    } 
+    65%{  
+    border-radius: 50% 50% 50% 0;
+    transform: translate(0, 0) scale(1, 2) rotate(315deg);
+    bottom: 115px;
+    } 
+    
+    75%{  
+    border-radius: 50% 50% 50% 50%;
+    transform: translate(0, 0) scale(2, 0.4) rotate(315deg);  
+    bottom: -40px;
+    } 
+    80%{  
+    border-radius: 50% 50% 50% 50%;
+    transform: translate(0, 0) scale(1) rotate(495deg);
+    bottom: 0px;
+    background-color: #3DFFFD; }
+    
+    85%, 95%{  
+    border-radius: 50% 50% 50% 0;
+    transform: translate(0, 0) scale(1) rotate(495deg);  
+    bottom: 0px;
+    } 
+    100%{
+    bottom: 0px;
+    }}
+
